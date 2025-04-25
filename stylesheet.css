@@ -1,0 +1,205 @@
+#indexBody {
+    background-image:
+    linear-gradient(to left, rgba(41, 41, 41, 0.52), rgba(170, 170, 170, 0.733)),
+    url('medias/background.jpg'); 
+    width: 99%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 0px;
+}
+#downloadGamesBody{
+    background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('medias/background2.jpg');
+    width: 99%;
+    height: 400px;
+    background-repeat: repeat;
+    color: white;
+    padding: 0px;
+}
+#indexBodyOtherWorks{
+    background-image:
+    linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('medias/background2.jpg');
+    width: 99%;
+    height: 400px;
+    background-repeat: repeat;
+    color: white;
+    padding: 0px;
+}
+#indexMenu{
+    background: rgb(100, 162, 255) url("img_tree.gif") no-repeat fixed center;
+}
+h1{
+    margin-left: 17%;
+    font-size: 50px;
+}
+a{
+    color:#ffca68;
+}
+#combineInvasionVid{
+    margin-left: 18%;
+    border-radius: 25px;
+}
+p{
+    font-size: large;
+    margin-left: 18%;
+    border-radius: 25px;
+}
+.elfsight-app-f0557fbf-a033-47a3-b8f1-c0590d590a96{
+    margin-left: 18%;
+    border-radius: 25px;
+    width: 50%;
+}
+#paddedIMG{
+    font-size: large;
+    margin-left: 18%;
+    border-radius: 25px;
+}
+h2{
+    margin-left: 17%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #f1f1f1;
+    height: 98%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    border-radius: 25px;
+}
+li {
+    text-align: left;
+    margin-left: 10px;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+#homeTxt{
+    font-size: 100px;
+    margin-left: 100px;
+    text-align: left;
+}
+#navBarImg{
+    width: 100%;
+}
+
+/* Style les inputs de type "text", les éléments select et les textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Largeur pleine */
+    padding: 12px; /* Un peu de padding */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Bords arrondis */
+    box-sizing: border-box; /* S'assurer que le padding et la largeur restent en place */
+    margin-top: 6px; /* Marge supérieure */
+    margin-bottom: 16px; /* Marge inférieure */
+    resize: vertical; /* Permet à l'utilisateur de redimensionner la textarea verticalement */
+}
+
+/* Style les inputs de type "text", les éléments select et les textareas */
+input[type=email], select, textarea {
+    width: 100%; /* Largeur pleine */
+    padding: 12px; /* Un peu de padding */
+    border: 1px solid #ccc; /* Bordure grise */
+    border-radius: 4px; /* Bords arrondis */
+    box-sizing: border-box; /* S'assurer que le padding et la largeur restent en place */
+    margin-top: 6px; /* Marge supérieure */
+    margin-bottom: 16px; /* Marge inférieure */
+    resize: vertical; /* Permet à l'utilisateur de redimensionner la textarea verticalement */
+}
+
+/* Style le bouton de soumission avec une couleur de fond spécifique */
+button[type=submit] {
+    background-color: #898989;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Lorsque la souris passe sur le bouton de soumission, ajoute une couleur verte plus foncée */
+button[type=submit]:hover {
+    background-color: #606060;
+}
+
+/* Ajoute une couleur de fond et un peu de padding autour du formulaire */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%; /* La largeur de l'élément est de 50% de la page */
+    margin: 0 auto; /* Centrage horizontal */
+}
+
+label{
+    color: black;
+}
+
+#gameFrameLeft{
+    margin-left: 21%;
+    margin-bottom: 2%;
+    height: 45%;
+    width: 36%;
+}
+
+#gameFrameRight{
+    padding: 2%;
+    height: 45%;
+    width: 36%;
+}
+
+#centerdTitle{
+    text-align: center;
+    font-size: 40px;
+}
+
+#centerdText{
+    text-align: center;
+}
+
+#serverPaddedIMG{
+    margin-left: 2%;
+    margin-top: 7%;
+    border-radius: 25px;
+}
+
+#bodyBorderServerSRP{
+    border-radius: 25px;
+    background-image: url("medias/srp_banner.png");
+    background-size: cover;
+    margin-left: 18%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    height: 100%;
+}
+
+#bodyBorderServerSRPHover{
+    border-radius: 25px;
+    background-color: #f1f1f100;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+#bodyBorderServerSRPHover:hover{
+    background-color: #7d7d7d4b;
+}
+
+#homeVideo{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 0%;
+    border-radius: 15px;
+}
